@@ -1,0 +1,519 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+
+.header{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('back2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    
+}
+.menu{
+    width: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    height: 120px;
+    background: transparent;
+}
+.logo{
+    text-transform: uppercase;
+    color: rgb(228, 241, 232);
+    font-size: 30px;
+    font-family: 'Times New Roman';
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-style: italic;
+    transition: 0.4s;
+    text-shadow: 10px 10px 0 10px whitesmoke;
+    
+}
+
+.logo img{
+    width: 30px;
+    height: 30px;
+}
+.logo:hover{
+      color: rgb(5, 88, 82);
+}
+
+
+ul li{
+    float: right;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Times New Roman';
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-right: 30px;
+    margin-top:-20px;
+    background-color: transparent;
+    padding:10px;
+    border-radius: 30px;
+    outline: none;
+    border: 1px solid rgb(189, 158, 158);
+    list-style: none;
+    transition: 0.4s;
+   
+}
+
+ul li:hover{
+    background-color:rgb(75, 67, 68);
+}
+ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+section{
+    height: 400px;
+    max-width: 1500px;
+    width: 100%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.text{
+    max-width: 50%;
+    width: 400px;
+    height: auto;
+    
+   margin: 0 50px;
+   padding: 5px 10px;
+   transition: 0.4s;
+   color: whitesmoke;
+}
+.text:hover img{
+    transform: translate(0%,-20%);
+    transition:2s;
+}
+.text img{
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+    border: 1px solid rgb(87, 87, 168);
+   
+}
+.text h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+    margin: 10px 0;
+    color: rgb(37, 172, 158);
+}
+.html{
+    width: 100%;
+    margin-left: 50px;
+    margin-top: 20px;
+    color: whitesmoke;
+    
+}
+.html .span{
+    position: relative;
+    margin-top: 10px;
+    width: 80%;
+    height: 6px;
+    background-color:white;
+    border-radius: 15px;
+}
+
+.p1{
+    float: right;
+   margin-right: 80px;
+   
+}
+
+.span1,.span2,.span3,.span4,.span5{
+    position: relative;
+    margin-top: -6px;
+    width: 0%;
+    height: 6px;
+    background-color: rgba(230, 13, 13, 0.938);
+    border-radius: 20px;
+    
+}
+.span1 {
+    animation: animation-span1;
+    animation-iteration-count:3s;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+
+
+@keyframes animation-span1{
+    0%{
+        width: 0%;
+       background-color: rgb(235, 20, 4);
+    }
+    50%{
+        width: 50%;
+        background-color: rgb(235, 20, 4);
+    }
+    100%{
+        width: 70%;
+        background: rgb(230, 59, 7);
+    }
+}
+
+
+.span2 {
+    animation: animation-span2;
+    animation-iteration-count:3s;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+
+
+@keyframes animation-span2{
+    0%{
+        width: 0%;
+       background-color: rgb(173, 86, 80);
+    }
+    50%{
+        width: 50%;
+        background-color: rgb(43, 235, 4);
+    }
+    100%{
+        width: 60%;
+        background: rgb(230, 215, 7);
+    }
+}
+
+.span3 {
+    animation: animation-span3;
+    animation-iteration-count:3s;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+
+
+@keyframes animation-span3{
+    0%{
+        width: 0%;
+       background-color: rgb(7, 7, 7);
+    }
+    50%{
+        width: 25%;
+        background-color: rgb(32, 121, 15);
+    }
+    100%{
+        width: 50%;
+        background: rgb(22, 7, 230);
+    }
+}
+
+.span4 {
+    animation: animation-span4;
+    animation-iteration-count:3s;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+
+
+@keyframes animation-span4{
+    0%{
+        width: 0%;
+       background-color: rgb(209, 25, 25);
+    }
+    50%{
+        width: 25%;
+        background-color: rgb(169, 185, 165);
+    }
+    100%{
+        width: 40%;
+        background: rgb(168, 41, 147);
+    }
+}
+
+
+.span5 {
+    animation: animation-span5;
+    animation-iteration-count:3s;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+
+
+@keyframes animation-span5{
+    0%{
+        width: 0%;
+       background-color: rgb(209, 25, 25);
+    }
+    50%{
+        width: 25%;
+        background-color: rgb(169, 185, 165);
+    }
+    100%{
+        width: 60%;
+        background: rgb(3, 71, 9);
+    }
+}
+
+
+.login{
+    text-align: center;
+    max-width: 50%;
+    width: 400px;
+    height: auto;
+    
+   margin: 0 50px;
+   padding: 5px 10px;
+   transition: 0.4s;
+}
+
+form h4{
+    font-family: monospace;
+    color: rgb(211, 9, 42);
+    font-size: 25px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(255, 250, 252);
+    margin-left: 85px;
+    margin-right: 85px;
+    padding: 10px 0;
+}
+.login input{
+    max-width: 80%;
+    width: 100%;
+    padding: 10px 0;
+    margin: 15px 0;
+    text-align: center;
+    background: transparent;
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+    border-radius: 20px;
+    outline: none;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login button{
+    max-width: 50%;
+    width: 100%;
+    padding: 10px 0;
+    margin: 20px 0;
+    text-align: center;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background:green;
+    color: whitesmoke;
+    font-size: 15px;
+    text-transform: uppercase;
+
+}
+.login p{
+    text-align: right;
+    margin: 10 50;
+}
+.login p a{
+    color: rgb(26, 48, 243);
+    text-decoration: none;
+    font-family:serif;
+   text-align: right;
+   text-transform: uppercase;
+   font-size: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section{
+    width: 100%;
+    height: 120%;
+    background-image: url('back3.jpg.jfif');
+    background-position: cover;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+}
+.section h2{
+    padding: 30px 0;
+    margin-bottom: 50px;
+}
+
+.section h2{
+    text-align: center;
+    padding: 30px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-style: oblique;
+}
+
+.section1{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.div1,.div2,.div3,.div4,.div5{
+    background: rgb(56, 58, 58);
+    width: 250px;
+    height: 350px;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 0 rgb(145, 139, 139);
+}
+ img{
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+    margin-top: 20px;
+    transition: 0.4s;
+}
+
+
+
+.right{
+    margin: 20px 20px;
+    float: left;
+    line-height: 32px;
+    color: rgb(23, 23, 75);
+    text-transform: uppercase;
+    font-size: 13px;
+   font-family: fantasy;
+   font-style: oblique;
+   letter-spacing: 1px;
+   
+    
+}
+.div1,.div2,.div3,.div4,.div5, .right:hover  {
+     color: rgb(207, 9, 9);
+    
+     transition: 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.futer{
+    margin-top: 100px;
+    height: 600px;
+    width: 100%;
+    background-color:  rgb(32, 29, 29);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.futer1, .futer2, .futer3{
+    width: 28%;
+    height: 80%;
+    margin: 20px;
+    border-radius: 15px;
+
+}
+
+
+
+
+.futer1 h3{
+    color:rgb(72, 177, 68);
+    font-size: 20px;
+    font-family: monospace;
+    margin: 20px ;
+}
+.futer1 h4{
+    margin: 10px 30px;
+    color: rgb(235, 154, 116);
+    font-family: cursive;
+}
+.futer3 h3{
+    color: rgb(179, 241, 9);
+    text-transform: uppercase;
+    font-family: monospace;
+    font-style: inherit;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 0;
+}
+.futer3 input{
+    text-align: center;
+    width:100%;
+    margin: 20px 0px;
+    padding: 8px 0;
+    border-radius: 5px;
+    outline: none;
+}
+.futer3 input::placeholder{
+    text-transform: uppercase;
+}
+textarea{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.966);
+    outline: none;
+   
+}
+textarea::placeholder{
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.send{
+    float: right;
+    margin: 30px auto;
+}
+ button{
+    padding: 8px 20px ;
+    background-color:rgb(6, 143, 6);
+    text-transform: uppercase;
+    color: whitesmoke;
+    border-radius: 5px;
+}
+.futur-logo{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+}
+.futur-logo img{
+    margin: 0 20px;
+    
+}
+.futur-logo h4{
+    margin-top: 25px;
+    margin-left: 200px;
+    font-family: monospace;
+    font-size: 15px;
+}
